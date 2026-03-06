@@ -236,17 +236,17 @@ const ZONES = [
   {
     id: 'tenderloin', name: 'Tenderloin', level: 'red', label: 'Avoid',
     coords: [
-      {lat:37.7870, lng:-122.4125}, {lat:37.7830, lng:-122.4085},
-      {lat:37.7790, lng:-122.4180}, {lat:37.7763, lng:-122.4213},
-      {lat:37.7850, lng:-122.4230}
+      {lat:37.7875, lng:-122.4145}, {lat:37.7870, lng:-122.4095},
+      {lat:37.7835, lng:-122.4080}, {lat:37.7810, lng:-122.4120},
+      {lat:37.7805, lng:-122.4165}, {lat:37.7845, lng:-122.4190}
     ],
     info: "The Tenderloin — SF's highest crime density. Open drug dealing, frequent assaults and robberies. Avoid walking here after dark. If you must pass through, stay on well-lit streets and keep your phone in your pocket. During the day it's gritty but generally walkable — just stay alert."
   },
   {
     id: 'civic-center', name: 'Civic Center', level: 'red', label: 'Avoid',
     coords: [
-      {lat:37.7808, lng:-122.4140}, {lat:37.7790, lng:-122.4120},
-      {lat:37.7763, lng:-122.4213}, {lat:37.7795, lng:-122.4210}
+      {lat:37.7810, lng:-122.4120}, {lat:37.7795, lng:-122.4100},
+      {lat:37.7770, lng:-122.4160}, {lat:37.7785, lng:-122.4185}
     ],
     info: "Civic Center — Adjacent to the Tenderloin with similar issues. Heavy foot traffic by day but sketchy after sunset, especially around UN Plaza. The area around City Hall itself is fine during business hours."
   },
@@ -260,13 +260,12 @@ const ZONES = [
     info: "Western SoMa — Mixed area. The blocks between 4th and 10th south of Market have elevated property crime and car break-ins. The 6th Street corridor is particularly rough. East of 4th toward the Embarcadero is much safer. Be careful at night, especially on side streets."
   },
   {
-    id: 'mission', name: 'Mission (East)', level: 'orange', label: 'Caution',
+    id: 'mission', name: 'Mission St Corridor', level: 'orange', label: 'Caution',
     coords: [
-      {lat:37.7650, lng:-122.4100}, {lat:37.7630, lng:-122.4070},
-      {lat:37.7580, lng:-122.4090}, {lat:37.7570, lng:-122.4130},
-      {lat:37.7610, lng:-122.4150}, {lat:37.7640, lng:-122.4130}
+      {lat:37.7650, lng:-122.4215}, {lat:37.7650, lng:-122.4180},
+      {lat:37.7525, lng:-122.4170}, {lat:37.7525, lng:-122.4205}
     ],
-    info: "Parts of the Mission — Vibrant by day, but some blocks around 16th St BART and east toward SoMa get rough at night. Stick to Valencia Street (the nice side) rather than Mission Street after dark. The further west toward Dolores Park, the safer."
+    info: "Mission Street between 16th and 24th — The main drags around 16th St BART and 24th St BART can get rough, especially at night. Stick to Valencia Street (one block west) after dark. Side streets off Mission are generally fine."
   },
   {
     id: 'bayview', name: 'Bayview-Hunters Point', level: 'orange', label: 'Caution',
@@ -284,14 +283,6 @@ const ZONES = [
       {lat:37.7130, lng:-122.3920}, {lat:37.7130, lng:-122.4020}
     ],
     info: "Visitacion Valley — Residential area with above-average property crime. Not a tourist destination. Generally fine during the day."
-  },
-  {
-    id: 'ggpark', name: 'Golden Gate Park', level: 'yellow', label: 'Be aware (after dark)',
-    coords: [
-      {lat:37.7730, lng:-122.4570}, {lat:37.7730, lng:-122.5110},
-      {lat:37.7680, lng:-122.5110}, {lat:37.7680, lng:-122.4570}
-    ],
-    info: "Golden Gate Park — Beautiful and safe during the day! But avoid walking through the park after dark. Stick to well-lit paths and avoid isolated areas at night. The eastern end near the museums is safest."
   }
 ];
 const SAFE_SPOTS = [
